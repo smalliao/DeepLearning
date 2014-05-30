@@ -13,7 +13,7 @@ typedef struct {
 
 void MLP__construct(MLP*, int, int, int*, int, int);
 void MLP__destruct(MLP*);
-void MLP_train(MLP*, int*, int*, double);
-void MLP_predict(MLP*, int*, double*, double **);
+void MLP_train(MLP*, int*, int*, double, double*);
+void MLP_predict(MLP*, int*, double*, double **, int *, double *);
 #endif
 
