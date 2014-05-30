@@ -11,7 +11,7 @@ typedef struct {
 
 void HiddenLayer__construct(HiddenLayer*, int, int, int, double**, double*);
 void HiddenLayer__destruct(HiddenLayer*);
-double HiddenLayer_output(HiddenLayer*, int*, double*, double);
+double HiddenLayer_output(HiddenLayer*, double*, double*, double);
 void HiddenLayer_sample_h_given_v(HiddenLayer*, int*, int*);
 
 #endif
